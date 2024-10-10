@@ -49,8 +49,8 @@ padding: 2px;
         /* background-position:; */
     }
     .bg-head {
-        height: 10%;  /*50%*/
-        width: 10%;
+        height: 50%;  /*50%*/
+        width: 50%;
         /* top: 25%; */
     }
 
@@ -69,11 +69,11 @@ padding: 2px;
         width: 100%;
     }
     .bg-head {
-        /* height: 55%; */
-        /* width: 85%; */
+        height: 60%; 
+        width: 90%;
         top: 20%;
-        width: 20%;
-        height:20px;
+        /* width: 50%;
+        height:50px; */
         text-align: center;
     }
 
@@ -270,6 +270,7 @@ padding: 2px;
 @media (max-width: 768px) {
     .sec-3{
         width: 100%;
+
     }
     .flex-item {
         flex: 1 1 100%;
@@ -316,6 +317,33 @@ color: #C0E7EE;
     padding:3rem;
 }
 
+@media screen and (max-width: 768px) {
+    .sec-4 {
+        /* background-size: contain;  */
+        width: 100%;
+        height: 80vh;
+    }
+
+    .content > p {
+        font-size: 1.1rem; 
+        padding: 2rem; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sec-4 {
+        /* background-size: contain;  */
+        /* background-position: center; */
+        width: 100%;
+        height: 60vh; 
+    }
+    .content > p {
+        font-size: 1rem; 
+        line-height: 1.8rem; 
+        padding: 1.5rem; 
+    }
+}
+
 /* -------------services------------- */
 
 .service{
@@ -349,11 +377,7 @@ color: #C0E7EE;
     height: auto;
 }
 
-@media (max-width: 768px) {
-    .flex-item {
-        flex: 1 1 100%;
-    }
-}
+
 .btn{
     background-color: #4D70B2;
     color: #fff;
@@ -368,5 +392,11 @@ color: #C0E7EE;
 }
 .bg-color{
     background-color: #D8DFF1;
-    height:20rem;
+    height:30rem;
+}
+
+@media (max-width: 768px) {
+    .flex-item {
+        flex: 1 1 100%;
+    }
 }
